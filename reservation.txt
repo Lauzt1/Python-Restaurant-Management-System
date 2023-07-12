@@ -1,0 +1,6 @@
+2019-12-09|Slot 1|FONG KAH YING|fongky98@yahoo.com|0198827423|4
+2019-12-16|Slot 1|JACOB LEE| jacoblwk@hotmail.com|0172245367|2
+2019-12-15|Slot 3|AARON TAN|aarontan@gmail.com|0189374233|3
+2019-12-20|Slot 3|KENNY KONG|kennykong1127@gmail.com|0199556433|1
+2019-12-20|Slot 1|JOHN WEE|john@email.com|123456789|1
+2019-12-30|Slot 1|BOB LEE|john@email.com|123456789|3

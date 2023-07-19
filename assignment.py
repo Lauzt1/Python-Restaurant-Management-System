@@ -81,14 +81,20 @@ def addReservation():
         except ValueError:
                 print("Invalid input. Please enter a number.")
                 break
+        with open('reservation.txt', 'r') as file:
+            reservations = file.readlines()
 
-    # Format the reservation information
-    reservation = f"{date}|Slot{slot1}|{name}|{email}|{phone}|{pax}\n"
+        matching_reservations = [r for r in reservations if r.startswith(date + '|' + slot1)]
 
-    # Write the reservation to the file
-    with open('reservation.txt', 'a') as file:
-        file.write(reservation+ '\n')
-    print("Reservation added successfully!\n")
+        if len(matching_reservations) < 8:
+            number = len(matching_reservations) + 1
+            reservation = f"{date}|{slot1}|{name}|{email}|{phone}|{pax}|{number}\n"
+            with open('reservation.txt', 'a') as file:
+                file.write(reservation)
+            print("Reservation added successfully!\n")
+        else:
+            print("Error: This date and time slot is full. Maximum of 8 reservations allowed.\n")
+        break
     
     try:
         another = input("Would you like to make another reservation? (y/n)")

@@ -36,52 +36,68 @@ def mealRecommendation():
 
 def addReservation():
     # Prompt the user for reservation information
-    try:
-        month = int(input("Enter the month (1-12): "))
-        day = int(input("Enter the day (1-31): "))
-        input_date = datetime.datetime(datetime.datetime.now().year, month, day).date()
-        today = datetime.datetime.now().date()
-        if input_date >= today + datetime.timedelta(days=5):
-            date = input_date.strftime("%Y-%m-%d")
-        else:
-            print("Error: Please enter a date that is more than 5 days from today.")
-    except ValueError:
-        print("Invalid input. Please enter valid month and day.")
-
-    try:
-        slot = input("Please select a time slot:\n1. 12:00 pm - 02:00 pm\n2. 02:00 pm - 04:00 pm\n\n3. 06:00 pm - 08:00 pm\n\nEnter your choice (1-4): ")
-        if 1 <= slot <= 4:
-            if slot == 1:
-                slot1 = "12:00 pm - 02:00 pm"
-            elif slot == 2:
-                slot1 = "02:00 pm - 04:00 pm"
-            elif slot == 3:
-                slot1 = "06:00 pm - 08:00 pm"
+    while True:
+        try:
+            month = int(input("Enter the month (1-12): "))
+            day = int(input("Enter the day (1-31): "))
+            input_date = datetime.datetime(datetime.datetime.now().year, month, day).date()
+            today = datetime.datetime.now().date()
+            if input_date >= today + datetime.timedelta(days=5):
+                date = input_date.strftime("%Y-%m-%d")
             else:
-                slot1 = "08:00 pm - 10:00 pm"
-        else:
-            print("Invalid selection. Please try again.")
-    except ValueError:
-            print("Invalid input. Please enter a number.")
-    
-    name = input("Enter the name: ")
-    email = input("Enter the email: ")
-    ID = input("Enter the ID: ")
-    
-    try:
-        pax = input("Enter the pax number: ")
-        if int(pax) >= 5:
-            print("Maximum 4 pax allowed")
-    except ValueError:
-            print("Invalid input. Please enter a number.")
+                print("Error: Please enter a date that is more than 5 days from today.")
+                break
+        except ValueError:
+            print("Invalid input. Please enter valid month and day.")
+            break
+
+        try:
+            slot = int(input("Please select a time slot:\n1. 12:00 pm - 02:00 pm\n2. 02:00 pm - 04:00 pm\n3. 06:00 pm - 08:00 pm\n4. 08:00 pm - 10:00 pm\nEnter your choice (1-4): "))
+            if 1 <= slot <= 4:
+                if slot == 1:
+                    slot1 = "12:00 pm - 02:00 pm"
+                elif slot == 2:
+                    slot1 = "02:00 pm - 04:00 pm"
+                elif slot == 3:
+                    slot1 = "06:00 pm - 08:00 pm"
+                elif slot == 4:
+                    slot1 = "08:00 pm - 10:00 pm"
+            else:
+                print("Invalid selection. Please try again.")
+                break
+        except ValueError:
+                print("Invalid input. Please enter a number.")
+                break
+        
+        name = input("Enter name: ")
+        email = input("Enter email: ")
+        phone = input("Enter phone number: ")
+        
+        try:
+            pax = input("Enter the pax number: ")
+            if int(pax) >= 5:
+                print("Maximum 4 pax allowed")
+                break
+        except ValueError:
+                print("Invalid input. Please enter a number.")
+                break
 
     # Format the reservation information
-    reservation = f"{date}|Slot{slot1}|{name}|{email}|{ID}|{pax}\n"
+    reservation = f"{date}|Slot{slot1}|{name}|{email}|{phone}|{pax}\n"
 
     # Write the reservation to the file
     with open('reservation.txt', 'a') as file:
-        file.write(reservation)
-    print("Reservation added successfully.")
+        file.write(reservation+ '\n')
+    print("Reservation added successfully!\n")
+    
+    try:
+        another = input("Would you like to make another reservation? (y/n)")
+        if another == "y":
+            addReservation()
+        elif another == "n":
+            pass
+    except ValueError:
+            print("Invalid input. Please enter y or n.")
 
 def main():
     while True:
@@ -95,8 +111,8 @@ def main():
                 displayReservation()
             case 2:
                 displayMenu()
-            # case 3:
-            #     addReservation()
+            case 3:
+                addReservation()
             # case 4:
             #     delReservation()
             case 5:

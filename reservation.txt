@@ -1,6 +1,20 @@
-2019-12-09|Slot 1|FONG KAH YING|fongky98@yahoo.com|0198827423|4
-2019-12-16|Slot 1|JACOB LEE| jacoblwk@hotmail.com|0172245367|2
-2019-12-15|Slot 3|AARON TAN|aarontan@gmail.com|0189374233|3
-2019-12-20|Slot 3|KENNY KONG|kennykong1127@gmail.com|0199556433|1
-2019-12-20|Slot 1|JOHN WEE|john@email.com|123456789|1
-2019-12-30|Slot 1|BOB LEE|john@email.com|123456789|3
+2023-09-01|12:00 pm - 02:00 pm|Sam|sam@gmail.com|0123456789|1|1
+2023-09-01|12:00 pm - 02:00 pm|Tom|tom@gmail.com|0178569842|1|2
+2023-09-01|12:00 pm - 02:00 pm|Kyle|kyle@gmail.com|0112345678|1|3
+2023-09-01|12:00 pm - 02:00 pm|Bob|bob@gmail.com|0145637892|1|4
+2023-09-01|12:00 pm - 02:00 pm|James|james@gmail.com|0167892345|1|5
+2023-09-01|12:00 pm - 02:00 pm|David|david@gmail.com|0134567892|1|6
+2023-09-01|12:00 pm - 02:00 pm|Dan|dan@gmail.com|0198234567|1|7
+2023-09-01|12:00 pm - 02:00 pm|Mark|mark@gmail.com|0178945236|1|8
+2023-09-01|02:00 pm - 04:00 pm|Max|max@gmail.com|0145678923|1|1
+2023-09-01|02:00 pm - 04:00 pm|Ben|ben@gmail.com|0198234567|1|2
+2023-09-01|02:00 pm - 04:00 pm|Amy|amy@gmail.com|0167892345|1|3
+2023-09-01|02:00 pm - 04:00 pm|Emma|emma@gmail.com|0123456789|1|4
+2023-09-01|02:00 pm - 04:00 pm|Luke|luke@gmail.com|0178945236|1|5
+2023-09-01|02:00 pm - 04:00 pm|Jake|jake@gmail.com|0145637892|1|6
+2023-09-01|06:00 pm - 08:00|Mia|mia@gmail.com|0198234567|1|1
+2023-09-01|06:00 pm - 08:00|Zoe|zoe@gmail.com|0123456789|1|2
+2023-09-01|06:00 pm - 08:00|Ava|ava@gmail.com|0178569842|1|3
+2023-09-01|06:00 pm - 08:00|Liam|liam@gmail.com|0145678923|1|4
+2023-09-01|06:00 pm - 08:00|Noah|noah@gmail.com|0167892345|1|5
+2023-09-01|06:00 pm - 08:00|Ethan|ethan@gmail.com|0134567892|1|6

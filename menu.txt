@@ -1,8 +1,20 @@
-Butter Chicken.
-Palak Paneer.
-Mutton/Lamb in a Kashmiri chilli pepper gravy
-Grilled Chicken with Fresh Cherry Salsa.
-Bombay Grilled Chutney Sandwich.
-Persian Chicken Joojeh Kebabs
-Spicy Pork Vindaloo.
-Bombay Sloppy Joes (Kheema Pav)
+Nasi Lemak - Coconut rice served with sambal, fried anchovies, peanuts, boiled egg, and cucumber.
+Char Kway Teow - Stir-fried flat rice noodles with prawns, Chinese sausage, bean sprouts, and chives.
+Hainanese Chicken Rice - Steamed chicken served with fragrant rice and accompanied by chili sauce and ginger paste.
+Laksa - Spicy noodle soup with a coconut milk base, often served with prawns, chicken, or tofu.
+Roti Canai - Flaky flatbread served with curry sauce or dhal for dipping.
+Satay - Skewered and grilled marinated meat (often chicken or beef) served with peanut sauce.
+Mee Goreng - Spicy stir-fried noodles with vegetables and choice of meat or tofu.
+Rendang - Rich and flavorful meat stew cooked with coconut milk and spices until tender.
+Curry Laksa - Spicy noodle soup with a coconut milk and curry base, often served with seafood and tofu.
+Rojak - A mixed fruit and vegetable salad with a tangy shrimp paste dressing.
+Nasi Goreng - Malaysian-style fried rice with shrimp, chicken, egg, and vegetables.
+Ayam Percik - Grilled or roasted chicken marinated in a spiced coconut milk sauce.
+Bak Kut Teh - Pork rib soup simmered in a herbal broth.
+Sambal Stingray - Grilled stingray served with spicy sambal sauce.
+Murtabak - Stuffed savory pancake often filled with minced meat and onions.
+Oyster Omelette - Omelette with fresh oysters and tapioca flour.
+Cendol - A popular dessert with shaved ice, coconut milk, palm sugar, and green rice flour jelly.
+Ikan Bakar - Grilled fish marinated with spices and wrapped in banana leaves.
+Apam Balik - Sweet pancake filled with crushed peanuts, sugar, and corn.
+Prawn Mee - Prawn-based soup with noodles, prawns, and boiled egg.
